@@ -82,6 +82,7 @@ Key     Index
 58      21
 59      22
 60      23
+
   ```
 - Rationale: Because it code useing vecter, so that will collisions on the repeated elements.
 
