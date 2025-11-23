@@ -37,7 +37,7 @@ Email: oomayoo2522@gmail.com
   }
   
   ```
-- Rationale: [Explain your approach and its effectiveness for non-integer keys.]
+- Rationale: If the first letter is same,the index will collisions.
 
 ## Experimental Setup
 - Table sizes tested (m): 10, 11, 37
