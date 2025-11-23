@@ -178,46 +178,46 @@ Email: oomayoo2522@gmail.com
 - Example output for strings:
   ```
   === String Hash (m = 10) ===
-Key     Index
------------------
-cat     1
-dog     2
-bat     0
-cow     1
-ant     9
-owl     3
-bee     0
-hen     6
-pig     4
-fox     4
+  Key     Index
+  -----------------
+  cat     1
+  dog     2
+  bat     0
+  cow     1
+  ant     9
+  owl     3
+  bee     0
+  hen     6
+  pig     4
+  fox     4
 
-=== String Hash (m = 11) ===
-Key     Index
------------------
-cat     7
-dog     8
-bat     6
-cow     7
-ant     5
-owl     8
-bee     6
-hen     1
-pig     9
-fox     10
+  === String Hash (m = 11) ===
+  Key     Index
+  -----------------
+  cat     7
+  dog     8
+  bat     6
+  cow     7
+  ant     5
+  owl     8
+  bee     6
+  hen     1
+  pig     9
+  fox     10
 
-=== String Hash (m = 37) ===
-Key     Index
------------------
-cat     14
-dog     15
-bat     13
-cow     14
-ant     12
-owl     26
-bee     13
-hen     19
-pig     27
-fox     17
+  === String Hash (m = 37) ===
+  Key     Index
+  -----------------
+  cat     14
+  dog     15
+  bat     13
+  cow     14
+  ant     12
+  owl     26
+  bee     13
+  hen     19
+  pig     27
+  fox     17
   ```
 
 - Observations: Outputs align with the analysis, showing better distribution with prime table sizes.
