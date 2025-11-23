@@ -225,11 +225,13 @@ Email: oomayoo2522@gmail.com
 
 ## Analysis
 - Prime vs non-prime `m`: Prime table sizes generally result in better distribution and fewer collisions.
-- That's because prime number doesn't be divided by another numbers. So, it method can reduce collisions. Also prime numbers haven't factors, let the prime table sizes can destory the decorrelation, make fewer collisions.
+- That's because prime number doesn't be divided by anothers numbers. So, it method can reduce collisions. Also prime numbers haven't factors, let the prime table sizes can destory the decorrelation, make fewer collisions.
 
 - Patterns or collisions: Non-prime table sizes tend to produce repetitive patterns, leading to more collisions.
-- 
+- Because the composite numbers can segmentation period of hash function due to composite numbers can be divided by anothers numbers. But if the keys have some regular pattern it can be divided by table sizes, the index will collisions. Because all the keys in the same bucket.
+  
 - Improvements: Use a prime table size and a well-designed hash function to enhance distribution.
+- 
 
 ## Reflection
 1. Designing hash functions requires balancing simplicity and effectiveness to minimize collisions.
