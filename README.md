@@ -1,9 +1,10 @@
-# Homework Assignment IV: Hash Function Design & Observation (C/C++ Version)
+# Homework Assignment IV: Hash Function Design & Observation (C++ Version)
 
-This assignment focuses on the design and observation of hash functions using C/C++. 
+This assignment focuses on the design and observation of hash functions using C++. 
 Students are expected to implement and analyze the behavior of hash functions, 
 evaluate their efficiency, and understand their applications in computer science.
 
+My execution environment is vs2022 on windows11.
 Developer: li yun  
 Email: oomayoo2522@gmail.com  
 
@@ -59,40 +60,27 @@ Email: oomayoo2522@gmail.com
 ### Compilation
 - The project uses a comprehensive Makefile that builds both C and C++ versions with proper flags:
   ```bash
-  # Build both C and C++ versions
-  make all
-  
-  # Build only C version
-  make c
-  
+
   # Build only C++ version
-  make cxx
+  Make a project and add the hash.h, hash.cpp and main.cpp.
   ```
 
 ### Manual Compilation (if needed)
-- Command for C:
-  ```bash
-  gcc -std=c23 -Wall -Wextra -Wpedantic -g -o C/hash_function C/main.c C/hash_fn.c
-  ```
 - Command for C++:
   ```bash
-  g++ -std=c++23 -Wall -Wextra -Wpedantic -g -o CXX/hash_function_cpp CXX/main.cpp CXX/hash_fn.cpp
+  That execution environment doesn't need it command.
   ```
 
 ### Clean Build Files
 - Remove all compiled files:
   ```bash
-  make clean
+  Just delete all .cpp and .h files.
   ```
 
 ### Execution
 - Run the compiled binary:
   ```bash
-  ./hash_function
-  ```
-  or
-  ```bash
-  ./hash_function_cpp
+  Click the start bottom.
   ```
 
 ### Result Snapshot
