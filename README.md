@@ -231,7 +231,8 @@ Email: oomayoo2522@gmail.com
 - Because the composite numbers can segmentation period of hash function due to composite numbers can be divided by anothers numbers. But if the keys have some regular pattern it can be divided by table sizes, the index will collisions. Because all the keys in the same bucket.
   
 - Improvements: Use a prime table size and a well-designed hash function to enhance distribution.
-- 
+- 1. Use Division Method: Select a prime number N1, the hash function is index=key%N1;.
+  2. Use Multiplicative Hash: Select a prime number N2 and the number A=(sqrt(5)-1)/2 ≈ 0.6180339887, the hash function is index=floor( m *  (k * A-floor(k * A) ));.
 
 ## Reflection
 1. Designing hash functions requires balancing simplicity and effectiveness to minimize collisions.
