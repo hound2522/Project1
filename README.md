@@ -225,7 +225,10 @@ Email: oomayoo2522@gmail.com
 
 ## Analysis
 - Prime vs non-prime `m`: Prime table sizes generally result in better distribution and fewer collisions.
+- That's because prime number doesn't be divided by another numbers. So, it method can reduce collisions. Also prime numbers haven't factors, let the prime table sizes can destory the decorrelation, make fewer collisions.
+
 - Patterns or collisions: Non-prime table sizes tend to produce repetitive patterns, leading to more collisions.
+- 
 - Improvements: Use a prime table size and a well-designed hash function to enhance distribution.
 
 ## Reflection
