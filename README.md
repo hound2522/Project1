@@ -11,13 +11,13 @@ Email: oomayoo2522@gmail.com
 ### Integer Keys 
 - Formula / pseudocode:
   ```text
-  Formula:index=key%size
+  Formula:index=key%size;
   pseudocode:
-  key={ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60 };
-  size={ 10, 11, 37 };
-  for(int m:size){
-  for(int k:key){
-  cout<<k<<" "<<key%size<<"\n\n";
+  vector<int> intKeys={ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60 };
+  vector<int> sizes={ 10, 11, 37 };
+  for(int m:sizes){
+  for(int k:intKeys){
+  cout<<k<<" "<<intKeys%sizes<<"\n\n";
   }
   }
   ```
@@ -26,47 +26,16 @@ Email: oomayoo2522@gmail.com
 ### Non-integer Keys
 - Formula / pseudocode:
   ```text
- === String Hash (m = 10) ===
-Key     Index
------------------
-cat     1
-dog     2
-bat     0
-cow     1
-ant     9
-owl     3
-bee     0
-hen     6
-pig     4
-fox     4
-
-=== String Hash (m = 11) ===
-Key     Index
------------------
-cat     7
-dog     8
-bat     6
-cow     7
-ant     5
-owl     8
-bee     6
-hen     1
-pig     9
-fox     10
-
-=== String Hash (m = 37) ===
-Key     Index
------------------
-cat     14
-dog     15
-bat     13
-cow     14
-ant     12
-owl     26
-bee     13
-hen     19
-pig     27
-fox     17
+  Formula:index=str[0] - '0';
+  pseudocode:
+  vector<std::string> strKeys= { "cat", "dog", "bat", "cow", "ant", "owl", "bee", "hen", "pig", "fox" };
+  vector<int> sizes = { 10, 11, 37 };
+  for(int m:sizes){
+  for(const auto s:strKeys){
+  cout<<s<<" "<<(strKeys[0]-'0')%sizes<<"\n\n";
+  }
+  }
+  
   ```
 - Rationale: [Explain your approach and its effectiveness for non-integer keys.]
 
